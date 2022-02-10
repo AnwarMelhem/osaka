@@ -1,0 +1,118 @@
+:root{
+   --mainColor:#ff206e; 
+}
+body{
+   
+    background-image: url(../img/light_dot.jpg);
+}
+/*header*/
+.header{
+    background-image: url(../img/me.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.text-maincolor{
+   color: var(--mainColor);
+}
+.header .icons{
+    width:18%;
+}
+.header .icons i{
+    border:1px solid black ;
+/*padding: 8px;*/
+    /*border-radius: 50%;*/
+    transition: all 1s;
+}
+
+.header .icons i:hover{
+    color: var(--mainColor);
+    border-color: white;
+}
+ .header a:hover{
+    color: var(--mainColor);
+    
+}
+/* end header*/
+
+.navbar-dark .navbar-nav li:first-child a{
+    color: var(--mainColor);
+}
+/*title*/
+
+
+
+.title h2 {
+    color: #f1f1f1;
+    font-size: 5rem;
+   ;}
+.title h3 {
+    font-size: 2.5rem;
+    color: black; 
+    }
+/*end title*/
+/*start services*/
+.services{
+    background-image: url(../img/dark_dot.jpg);
+}
+.services .title h2{
+    color: #222;
+}
+.services .title h3{
+    color:white;
+}
+.service-item h4{
+    position: relative;
+}
+.service-item h4:after{
+    content:'';
+    background-color: var(--mainColor);
+    position: absolute;
+    top:32px;
+    left:40%;
+    width: 20%;
+    height: 4px;
+    
+
+}
+.service-item  {
+    position: relative;
+}
+.service-item  i {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000;
+   
+    box-shadow: 0 3px 20px rgb(0 0 0 / 15%);
+    border: 2px solid #fff;
+
+    border-radius: 50%;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    padding: 17px 0;
+    width: 62px;
+  
+    
+    transform: translateX(-50%);
+    transition: all .35s ease-in-out;
+}
+.service-item  i:hover{
+    color: var(--mainColor);
+}
+/*end services*/
+/*start portfolio*/
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color:var(--mainColor);
+    background-color:transparent;
+}
+.nav-tabs .nav-link{
+    border: 0;
+    color: #000;
+    font-family: 700;
+
+}
+/*end portfolio*/
+
+
